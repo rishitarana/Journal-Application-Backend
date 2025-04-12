@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.Journaling.demo.service.EmailServiceTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.057 s <<< FAILURE! -- in com.Journaling.demo.service.EmailServiceTests
+com.Journaling.demo.service.EmailServiceTests.testSendMail -- Time elapsed: 0.035 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.Journaling.controller.demo.service.EmailService.sendEmail(String, String, String)" because "this.emailService" is null
+	at com.Journaling.demo.service.EmailServiceTests.testSendMail(EmailServiceTests.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
